@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{B3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Basket.Domain", "src\Services\Basket\Moongazing.Vendio.Basket.Domain\Moongazing.Vendio.Basket.Domain.csproj", "{32B3DC8B-1459-4DF6-9D44-EECF57A787C8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{E312F70B-EC23-4BFF-8B9A-89364FC94A3E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Basket.Application", "src\Services\Basket\Moongazing.Vendio.Basket.Application\Moongazing.Vendio.Basket.Application.csproj", "{F2A913DE-C512-4062-BFFF-44286398512B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Basket.Persistence", "src\Services\Basket\Moongazing.Vendio.Basket.Persistence\Moongazing.Vendio.Basket.Persistence.csproj", "{01B17062-9AA1-4157-B709-D2E2C939EA22}"
@@ -42,6 +40,19 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Kernel.Persistence", "src\Kernel\Moongazing.Kernel.Persistence\Moongazing.Kernel.Persistence.csproj", "{C9AD67A5-44C4-4A28-B97B-696CA264923E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Kernel.Security", "src\Kernel\Moongazing.Kernel.Security\Moongazing.Kernel.Security.csproj", "{5ACFB81F-8D07-48EF-9C6E-3AACEA355297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Catalog.Domain", "src\Services\Catalog\Moongazing.Vendio.Catalog.Domain\Moongazing.Vendio.Catalog.Domain.csproj", "{4483D7AC-D6AD-432A-9245-F45865F666AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Catalog.Persistence", "src\Services\Catalog\Moongazing.Vendio.Catalog.Persistence\Moongazing.Vendio.Catalog.Persistence.csproj", "{525B733F-0A37-487B-8FB4-56410FDC6651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Catalog.Application", "src\Services\Catalog\Moongazing.Vendio.Application\Moongazing.Vendio.Catalog.Application.csproj", "{8B25AD12-2E33-48FD-8584-7692BBA576BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Vendio.Catalog.WebApi", "src\Services\Catalog\Moongazing.Vendio.Catalog.WebApi\Moongazing.Vendio.Catalog.WebApi.csproj", "{25E7DBCC-A4F1-413F-806B-73B85FF05752}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7963D304-20E8-4BA5-871F-B4B20A0B3856}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +100,22 @@ Global
 		{5ACFB81F-8D07-48EF-9C6E-3AACEA355297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ACFB81F-8D07-48EF-9C6E-3AACEA355297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ACFB81F-8D07-48EF-9C6E-3AACEA355297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4483D7AC-D6AD-432A-9245-F45865F666AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4483D7AC-D6AD-432A-9245-F45865F666AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4483D7AC-D6AD-432A-9245-F45865F666AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4483D7AC-D6AD-432A-9245-F45865F666AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525B733F-0A37-487B-8FB4-56410FDC6651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525B733F-0A37-487B-8FB4-56410FDC6651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525B733F-0A37-487B-8FB4-56410FDC6651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525B733F-0A37-487B-8FB4-56410FDC6651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B25AD12-2E33-48FD-8584-7692BBA576BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B25AD12-2E33-48FD-8584-7692BBA576BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B25AD12-2E33-48FD-8584-7692BBA576BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B25AD12-2E33-48FD-8584-7692BBA576BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E7DBCC-A4F1-413F-806B-73B85FF05752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E7DBCC-A4F1-413F-806B-73B85FF05752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E7DBCC-A4F1-413F-806B-73B85FF05752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E7DBCC-A4F1-413F-806B-73B85FF05752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,7 +130,6 @@ Global
 		{C1ACCE71-6778-4D6C-82FC-FBF59972FB11} = {23A14013-E69A-4ACD-9051-6101A90B5B23}
 		{B333D1DF-3D44-417B-B293-1EFAA64280AB} = {23A14013-E69A-4ACD-9051-6101A90B5B23}
 		{32B3DC8B-1459-4DF6-9D44-EECF57A787C8} = {A9A78E56-D1A8-482F-B7A5-D86F7FB8D942}
-		{E312F70B-EC23-4BFF-8B9A-89364FC94A3E} = {23A14013-E69A-4ACD-9051-6101A90B5B23}
 		{F2A913DE-C512-4062-BFFF-44286398512B} = {A9A78E56-D1A8-482F-B7A5-D86F7FB8D942}
 		{01B17062-9AA1-4157-B709-D2E2C939EA22} = {A9A78E56-D1A8-482F-B7A5-D86F7FB8D942}
 		{93D4D4F6-B406-444C-878A-DA61B3D6E9AC} = {A9A78E56-D1A8-482F-B7A5-D86F7FB8D942}
@@ -113,5 +139,9 @@ Global
 		{90871299-6961-4AE0-A674-F73CA6246F60} = {497D07FF-5EBD-4232-BE38-3DDAB6E9FA43}
 		{C9AD67A5-44C4-4A28-B97B-696CA264923E} = {497D07FF-5EBD-4232-BE38-3DDAB6E9FA43}
 		{5ACFB81F-8D07-48EF-9C6E-3AACEA355297} = {497D07FF-5EBD-4232-BE38-3DDAB6E9FA43}
+		{4483D7AC-D6AD-432A-9245-F45865F666AF} = {C5D8C489-63D2-43B3-A65E-FDAB2D9C774A}
+		{525B733F-0A37-487B-8FB4-56410FDC6651} = {C5D8C489-63D2-43B3-A65E-FDAB2D9C774A}
+		{8B25AD12-2E33-48FD-8584-7692BBA576BC} = {C5D8C489-63D2-43B3-A65E-FDAB2D9C774A}
+		{25E7DBCC-A4F1-413F-806B-73B85FF05752} = {C5D8C489-63D2-43B3-A65E-FDAB2D9C774A}
 	EndGlobalSection
 EndGlobal
